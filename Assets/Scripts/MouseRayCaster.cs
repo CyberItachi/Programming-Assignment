@@ -27,7 +27,12 @@ public class MouseRayCaster : MonoBehaviour
                 int y = groundInfo.GetY();
                 X_Co.text = $"{x}";
                 Y_Co.text = $"{y}";
-            }
+            }    
         }
+        else 
+            {
+                X_Co.text = "0";
+                Y_Co.text = "0";
+            }
     }
 }
