@@ -29,5 +29,10 @@ public class MouseRayCaster : MonoBehaviour
                 Y_Co.text = $"{y}";
             }
         }
+        else
+        {
+            X_Co.text = "0";
+            Y_Co.text = "0";
+        }
     }
 }
